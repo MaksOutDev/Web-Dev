@@ -6,28 +6,91 @@
         }
         header {
             background: rgb(26, 25, 25);
-            padding: 20px; margin-bottom: 10px;
+            background-image: url(images/anime-style-clouds.jpg);
+            background-size: 100%;
+            padding: 20px; margin: 0;
+            height: 400px;
+            text-align: center;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color:black
         }
         ul {
             margin: 0; padding: 0;
             list-style-type: none;
         }
-        li{
+        li {
             display: inline-block;
             margin-right: 20px;
         }
-        section {
+        .logo a {
+            background-image: url("images/favicon.ico");
+            background-size: 100px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 100px; height: 100px;
+            text-indent: -999999999999px;
+            position: relative; 
+            right: -10px;
+        }
+        .feature-box div {
+            background: rgb(26, 25, 25); 
+            height: 200px;
+            border-radius: 6px;
+        }
+        section.feature-box.apps {
             background: white;
             color: white;
-            padding: 20px;
+            padding: 10px; padding-bottom: 0px;
             display: flex;
-            flex-direction: row;
         }
-        div {
-            background: rgb(26, 25, 25); 
-            width: 230px;
-            height: 200px;
-            margin: auto;
+        section.feature-box.ad {
+            background: white;
+            color: white;
+            margin: 0; padding: 10px 
+        }
+        section.feature-box.apps div {
+            width: 100%;
+            margin: 5px;
+            padding-top: 50px;
+            text-align: center;
+        }
+        section.feature-box.apps div.roblox a{
+            background-image: url(images/roblox.jpg);
+            background-size: 150px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 150px; height: 150px;
+            text-indent: -999999999999px;
+            position: relative;
+            border-radius: 6px;;
+        }
+        section.feature-box.apps div.minecraft a {
+            background-image: url(images/minecraft.png);
+            background-size: 150px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 150px; height: 150px;
+            text-indent: -999999999999px;
+            position: relative;
+            border-radius: 6px;;
+        }
+        section.feature-box.apps div.fortnite a {
+            background-image: url(images/fortnite.png);
+            background-size: 150px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 150px; height: 150px;
+            text-indent: -999999999999px;
+            position: relative;
+            border-radius: 6px;;
+        }
+        section.feature-box.ad div {
+            margin-bottom: 5px; padding: 20px;
         }
         footer {
             background: rgb(26, 25, 25);
