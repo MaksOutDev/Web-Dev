@@ -6,7 +6,7 @@
         }
         header {
             background: rgb(26, 25, 25);
-            background-image: url(images/anime-style-clouds.jpg);
+            background-image: url(images/background.jpg);
             background-size: 100%;
             padding: 20px; margin: 0;
             height: 400px;
@@ -95,4 +95,5 @@
         footer {
             background: rgb(26, 25, 25);
             padding: 10px 20px;
+
         }
