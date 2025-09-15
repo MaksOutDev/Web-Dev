@@ -8,16 +8,22 @@
             background: rgb(26, 25, 25);
             background-image: url(images/background.jpg);
             background-size: 100%;
-            padding: 20px; margin: 0;
-            height: 600px;
+            padding: 0px; margin: 0;
+            width: 100%;
+            height: 700px;
             text-align: center;
         }
         a {
             color: white;
+            font-weight: bold;
             text-decoration: none;
         }
         a:hover {
             color:black
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.164);
+            margin: 0; padding: 20px;
         }
         ul {
             margin: 0; padding: 0;
@@ -47,16 +53,18 @@
         .logo a:hover {
             transform: scale(1.1);
         }
-        .features {
+        section.features.plants {
             background: transparent;
             background-image: url(images/ground.png);
             background-size: 100%;
-            height: 400px;
+            width: 100%;
+            height: 600px;
             background-repeat: no-repeat;
             color: white;
-            padding: 30px;
             display: flex;
             flex-direction: row;
+            position: absolute;
+            top: 400px;
         }
         .features figure{
             margin: auto;
@@ -76,10 +84,7 @@
         section.features.ad {
             background: white;
             color: white;
-            margin: 0; padding: 10px 
-        }
-        section.feature-box.ad div {
-            margin-bottom: 5px; padding: 20px;
+            margin: 0; padding: 10px;
         }
         footer {
             background: rgb(26, 25, 25);
